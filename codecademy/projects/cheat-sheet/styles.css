@@ -1,0 +1,72 @@
+*{
+	Margin: 0;
+	Padding: 0;
+	Box-sizing: border-box;
+    font-family: 'Fira Code', monospace;
+}
+
+body{
+    width: 100%;
+    background-color: paleturquoise;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: block;
+    background-color: lightskyblue;
+}
+
+header h1{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main{
+    width: 900px;
+    margin: 0 auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+}
+
+section{
+    margin: 50px 0;
+}
+
+p, li, td{
+    font-size: 18px;
+}
+
+ol{
+    text-align: center;
+    list-style-position: inside;
+}
+p {
+    margin:auto;
+    padding: 30px 10px;
+}
+
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+th{
+    background-color: lightskyblue;
+}
+
+tr:hover{
+    background-color: skyblue;
+}

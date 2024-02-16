@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    width: 900px;
+    margin: 20px auto;
+}
+
+h1, h2, h3{
+    padding: 10px 0;
+    font-weight: 400;
+}
+.colors, .fonts, .text-styles{
+    border: 1px solid black;
+    margin: 20px auto;
+    padding: 10px;
+    list-style-position: inside;
+}
+
+.main-color{
+    background-color: #5ea152;
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+    padding: 30px;
+    color: white;
+}
+
+.secondary-color{
+    width: 25%;
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    text-align:center;
+    line-height: 2;
+    color: white;
+}
+
+.orange{
+    background-color: #A16845;
+}
+.purple{
+    background-color: #2F2C67;
+}
+.lavender{
+    background-color: #7F7DA4;
+}
+.green{
+    background-color: #6C7969;
+}
+
+.mer1{
+    font-family: 'merriweather';
+}
+.mer2{
+    font-family: 'merriweather';
+    font-weight: 700;
+}
+.mer3{
+    font-family: 'merriweather';
+    font-style: italic;
+    font-weight: 300;
+}
+
+.out1{
+    font-family: 'outfit';
+    font-weight: 400;
+}
+
+.out2{
+    font-family: 'outfit';
+    font-weight: 700;
+}
+
+.out3{
+    font-family: 'outfit';
+    font-weight: 300;
+}
+
+.cin1{
+    font-family: 'cinzel';
+    font-weight: 400;
+}
+
+.cin2{
+    font-family: 'cinzel';
+    font-weight: 700;
+}
+
+.cin3{
+    font-family: 'cinzel';
+    font-weight: 900;
+}
+
+.text-styles h1{
+    font-family: 'merriweather';
+    font-weight: 700;
+    font-size: 26px;
+    margin: 10px;
+}
+
+
+.text-styles h3{
+    font-family: 'outfit';
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+.text-styles p{
+    font-family: 'outfit';
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px;
+}
