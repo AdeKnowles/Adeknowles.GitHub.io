@@ -1,0 +1,259 @@
+html{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+@font-face {
+    font-family: 'ardarling';
+    src: url(./ARDARLING.ttf) format('truetype');
+}
+/*Header section*/
+header{
+    margin: 0 auto;
+    max-width:1000px;
+    text-align: center;
+}
+
+header img{
+    width: 100%;
+    height:auto;
+}
+
+nav a{
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+nav li{
+    display: inline;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.mobile{
+    display: none;
+}
+
+@media only screen and (min-width: 350px) and (max-width:760px){
+    nav li{
+        width: 28%;
+        padding: 2%;
+    }
+
+    nav ul{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .desktop{
+        display: none;
+    }
+
+    .mobile{
+        display:inline;
+    }
+
+    nav li{
+        font-size: 1.4rem;
+    }
+}
+/*main section*/
+main{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+/*About Boxed Rockets*/
+h1{
+    font-size: 5rem;
+    font-family: 'ardarling';
+    width: 100%;
+    padding: 4rem 1rem;
+    text-align: center;
+}
+
+#about p{
+    font-size: 1.5rem;
+    text-align: justify;
+    padding: 3rem;
+}
+
+@media only screen and (max-width: 760px){
+    h1{
+        font-size: 3rem;
+        padding: 2rem 1rem;
+    }
+
+    #about p{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    h1{
+        font-size: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    #about p{
+        font-size: 1rem;
+    }
+}
+/*Preview section*/
+h2{
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    width: 90%;
+    padding:5%;
+}
+
+#preview{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.preview{
+    width: 30%;
+    flex(1 1);
+    margin:1%;
+}
+
+.preview img{
+    width: 100%;
+    height:auto;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 760px){
+    h2{
+        font-size: 2.25rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+
+    .preview.top.right{
+        display: none;
+    }
+
+    .preview{
+        width: 48%;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    h2{
+        font-size: 1.5rem;
+    }
+
+    h3{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    #preview{
+        flex-direction: column;
+        align-items: center;
+    }
+    .preview{
+        width: 90%;
+    }
+
+    .preview img{
+        margin-top: 5%;
+    }
+}
+/*Meet the team*/
+
+#about h3{
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 10%;
+}
+
+#about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.about{
+    width: 44%;
+}
+
+#about p{
+    font-style: italic;
+    padding: 3%;
+}
+@media only screen and (max-width: 760px){
+    
+    #about h3{
+        font-size: 1.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 350px){
+    #about h3{
+        font-size: 1rem;
+    }
+}
+
+/*footer*/
+
+footer a{
+    color: white;
+}
+
+footer li{
+    display: inline;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+footer{
+    max-width: 1000px;
+    text-align: center;
+    margin: 5rem auto 0;
+}
+
+footer p{
+    float:left;
+}
+
+footer ul{
+    float: right;
+}
+
+@media only screen and (max-width: 760px){
+    
+    footer li, footer p{
+        font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (max-width: 350px){
+    footer li, footer p{
+        font-size: 0.6rem;
+    }
+}
