@@ -1,0 +1,175 @@
+html{
+    font-family: "Pacifico", cursive;
+    font-size: 16px;
+    color: whitesmoke;
+    max-width: 100%;
+}
+
+header{
+    background-image: url(./images/hills.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height:40rem;
+    font-family: "Pacifico", cursive;
+    text-align: center;
+}
+
+h1{
+    font-size: 6rem;
+    padding: 2rem;
+    line-height: 20rem;
+    color: black;
+    font-weight: bold;
+}
+
+nav li{
+    display: inline;
+    width:25%;
+    margin:2%;
+    background-color: #684986;
+    opacity: 0.9;
+    padding: 1% 1%;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 3rem;
+}
+
+nav li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:black;
+}
+
+nav{
+    position: relative;
+    top:15%;
+    z-index: 5;
+}
+
+#cycling img{
+    width: 100%;
+    max-height: 50rem;
+}
+
+.road-img1{
+    object-fit: cover;
+    object-position: center;
+}
+
+.road-img2{
+    object-fit: cover;
+    object-position: center;
+}
+
+.road-img3{
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.road1, .road2, .road3, .review{
+    background-color: #2EDBC9;
+    color: black;
+    width: 100%;
+    height: 30rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+.road2{
+    background-color: #D9DB2E;
+}
+
+.road3{
+    background-color: #842DDB;
+}
+
+#reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #415C59;
+
+}
+.review{
+    background-color: #DB652E;
+    width: 100%;
+    }
+
+.review-img{
+    width:30%;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 1500px){
+    h1{
+        font-size: 5rem;
+    }
+
+    h2{
+        font-size: 4rem;
+    }
+
+}
+
+@media only screen and (max-width: 1250px){
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+
+    nav li{
+        font-size: 1.5rem;
+    }
+
+    .road1, .road2, .road3, .review{
+        height: 20rem;
+    }
+}
+
+
+@media only screen and (max-width: 700px){
+    h1{
+        font-size: 1.75rem;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    nav li{
+        font-size: 1.25rem;
+    }
+
+    .road1, .road2, .road3, .review{
+        height: 10rem;
+    }
+}
+
+@media only screen and (max-width: 475px){
+    h1{
+        font-size: 1rem;
+    }
+
+    h2{
+        font-size: .8rem;
+    }
+
+    nav li{
+        font-size: .8rem;
+    }
+
+    .road1, .road2, .road3, .review{
+        height: 10rem;
+    }
+}
