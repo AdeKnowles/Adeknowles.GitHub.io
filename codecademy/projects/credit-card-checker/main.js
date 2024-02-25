@@ -75,9 +75,7 @@ const validateCred = arr => {
     //console.log(companyId);
     let uniqueCompanyId = [];
     companyId.forEach(el => {
-      if(uniqueCompanyId.includes(el)){
-  
-      } else {
+      if(!uniqueCompanyId.includes(el)){
         uniqueCompanyId.push(el);
       }
     });
