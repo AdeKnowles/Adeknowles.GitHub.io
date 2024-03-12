@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+    color: #304674;
+}
+html{
+    background-color: #C6D3E3;
+}
+/*color pallette: Background: #98BAD5 font: #304674/background2 #B2CBDE lightest #C6D3E3/*/
+header{
+    width: 100%;
+    height: 450px;
+    background-color: #98BAD5;
+    
+}
+h1{
+    font-family: "Sacramento", cursive;
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    padding: 85px; 
+    height: 250px;
+}
+h2{
+    font-family: "Sacramento", cursive;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    padding: 43px; 
+    height: 150px;
+}
+
+nav ul{
+    width: 80%;
+    margin: 20px auto;
+    height: 60px;
+    background-color: #B2CBDE;
+    border-radius: 10px;
+    display: flex;
+}
+
+nav li{
+    display: inline;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    width: 25%;
+    transition: 0.5s;
+}
+
+a{
+    color: #304674;
+}
+nav li:hover{
+    font-size: 2.2em;
+    border: 1px solid #304674;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+#language ul{
+    display: flex;
+    width: 90%;
+    margin:0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#language li{
+    width: 20%;
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin: 20px 0;
+    color: #304674;
+}
+
+#language li:hover{
+    padding: 10px 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+#language img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#projects ul{
+    margin: 0 auto;
+    text-align: center;
+}
+
+#projects li {
+    font-size: 3em;
+    list-style-type: circle;
+    padding: 16px;
+    height: 3em;
+    transition: 0.5s;
+}
+
+#projects li:hover {
+    text-decoration:underline;
+    height: 3em;
+    font-size: 3.5em;
+}
+
