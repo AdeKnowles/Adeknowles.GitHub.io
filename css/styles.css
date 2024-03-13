@@ -93,19 +93,61 @@ nav li:hover{
 #projects ul{
     margin: 0 auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
 }
 
 #projects li {
     font-size: 3em;
     list-style-type: circle;
-    padding: 16px;
+    padding: 1em;
     height: 3em;
     transition: 0.5s;
+    margin: auto;
 }
 
 #projects li:hover {
     text-decoration:underline;
-    height: 3em;
+    height: 2.5em;
     font-size: 3.5em;
+    list-style-type: disc;
 }
 
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #98BAD5;
+    
+}
+
+footer ul{
+    width: 80%;
+    margin: 20px auto;
+    height: 150px;
+    display: flex;
+}
+
+footer li{
+    display: inline;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    transition: 0.5s;
+    padding: 15px;
+}
+
+footer li:hover{
+    border: 1px solid #304674;
+    border-radius: 10px;
+}
+
+
+footer img{
+    width: auto;
+    height: 80px;
+    display: block;
+}
