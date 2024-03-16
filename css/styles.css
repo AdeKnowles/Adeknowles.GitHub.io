@@ -116,6 +116,33 @@ nav li:hover{
     list-style-type: disc;
 }
 
+#contact p {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+#contact li {
+    font-size: 2em;
+    list-style-type: circle;
+    padding: 1em;
+    height: 2em;
+    transition: 0.5s;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#contact li:hover {
+    text-decoration:underline;
+}
+
+#contact img {
+    width: 1em;
+    height: auto;
+    display: inline;
+}
+
+
 .hide {
     display: none;
     transition: 0.5s;
