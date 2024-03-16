@@ -101,7 +101,6 @@ nav li:hover{
 
 #projects li {
     font-size: 3em;
-    list-style-type: circle;
     padding: 1em;
     height: 3em;
     transition: 0.5s;
@@ -110,10 +109,15 @@ nav li:hover{
 }
 
 #projects li:hover {
-    text-decoration:underline;
+    font-weight: bold;
     height: 2.5em;
     font-size: 3.5em;
-    list-style-type: disc;
+}
+
+@media only screen and (max-width: 786px) and (min-width: 600px) {
+    #projects li {
+        font-size: 2em;
+    }
 }
 
 #contact p {
@@ -183,4 +187,100 @@ footer img{
     width: auto;
     height: 80px;
     display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    nav ul{
+        flex-direction: column;
+        align-content: center;
+        height:auto;
+        margin: 20px auto;
+        padding: 0;
+        list-style-type: none;
+    }    
+    nav li{
+        margin: auto;
+        font-size: 1.5em;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    nav li:hover{
+        font-size: 1.7em;
+        /*border: 1px solid #304674;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: underline;*/
+    }
+    
+    #language ul{
+        flex-direction: column;
+    }
+    
+    #language li{
+        width: 80%;
+    }
+    
+/*    
+    #language img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+  */  
+    #projects ul{
+        list-style-type: none;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        /*align-items: center;
+        align-content: center;*/
+    }
+    
+    #projects li {
+        font-size: 1.5em;
+        padding: 1em;
+        height: 3em;
+        transition: 0.5s;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    #projects li:hover {
+        font-size: 1.7em;
+    }
+        
+    #contact p {
+        font-size: 1.5em;
+    }
+    #contact li {
+        font-size: 1.5em;
+        list-style-type: none;
+    }
+    
+    #contact img {
+        width: 0.8em;
+    }
+    
+    
+    footer ul{
+        width: 100%;
+    }
+    
+    footer li{
+        font-size: 1em;
+    }
+       
+    
+    footer img{
+        height: 50px;
+    }
+    
 }
