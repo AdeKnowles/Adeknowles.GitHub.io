@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+    font-family: "Inria Sans", sans-serif;
+    color: #304674;
+}
+html{
+    background-color: #C6D3E3;
+}
+/*color pallette: Background: #98BAD5 font: #304674/background2 #B2CBDE lightest #C6D3E3/*/
+header{
+    width: 100%;
+    height: 450px;
+    background-color: #98BAD5;
+    
+}
+h1{
+    font-family: "Sacramento", cursive;
+    width: 100%;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    padding: 85px; 
+    height: 250px;
+}
+h2{
+    font-family: "Sacramento", cursive;
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    padding: 43px; 
+    height: 150px;
+}
+
+nav ul{
+    width: 80%;
+    margin: 20px auto;
+    height: 60px;
+    background-color: #B2CBDE;
+    border-radius: 10px;
+    display: flex;
+}
+
+nav li{
+    display: inline;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    width: 25%;
+    transition: 0.5s;
+}
+
+a{
+    color: #304674;
+}
+nav li:hover{
+    font-size: 2.2em;
+    border: 1px solid #304674;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: underline;
+}
+
+#language ul{
+    display: flex;
+    width: 90%;
+    margin:0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#language li{
+    width: 20%;
+    padding: 10px 30px;
+    transition: 0.5s;
+    margin: 20px 0;
+    color: #304674;
+}
+
+#language li:hover{
+    padding: 10px 10px;
+    margin: 0;
+    cursor: pointer;
+}
+
+#language img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+#projects ul{
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#projects li {
+    font-size: 3em;
+    padding: 1em;
+    height: 3em;
+    transition: 0.5s;
+    margin: auto;
+    transition: 0.5s;
+}
+
+#projects li:hover {
+    font-weight: bold;
+    height: 2.5em;
+    font-size: 3.5em;
+}
+
+@media only screen and (max-width: 786px) and (min-width: 600px) {
+    #projects li {
+        font-size: 2em;
+    }
+}
+
+#contact p {
+    font-size: 2em;
+    text-align: center;
+    font-weight: bold;
+}
+#contact li {
+    font-size: 2em;
+    list-style-type: circle;
+    padding: 1em;
+    height: 2em;
+    transition: 0.5s;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#contact li:hover {
+    text-decoration:underline;
+}
+
+#contact img {
+    width: 1em;
+    height: auto;
+    display: inline;
+}
+
+
+.hide {
+    display: none;
+    transition: 0.5s;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    background-color: #98BAD5;
+    
+}
+
+footer ul{
+    width: 80%;
+    margin: 20px auto;
+    height: 150px;
+    display: flex;
+}
+
+footer li{
+    display: inline;
+    text-align: center;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2em;
+    transition: 0.5s;
+    padding: 15px;
+}
+
+footer li:hover{
+    border: 1px solid #304674;
+    border-radius: 10px;
+}
+
+
+footer img{
+    width: auto;
+    height: 80px;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        font-size: 3em;
+    }
+    h2{
+        font-size: 2em;
+    }
+    nav ul{
+        flex-direction: column;
+        align-content: center;
+        height:auto;
+        margin: 20px auto;
+        padding: 0;
+        list-style-type: none;
+    }    
+    nav li{
+        margin: auto;
+        font-size: 1.5em;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+    nav li:hover{
+        font-size: 1.7em;
+        /*border: 1px solid #304674;
+        padding: 10px;
+        border-radius: 10px;
+        text-decoration: underline;*/
+    }
+    
+    #language ul{
+        flex-direction: column;
+    }
+    
+    #language li{
+        width: 80%;
+    }
+    
+/*    
+    #language img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+  */  
+    #projects ul{
+        list-style-type: none;
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        /*align-items: center;
+        align-content: center;*/
+    }
+    
+    #projects li {
+        font-size: 1.5em;
+        padding: 1em;
+        height: 3em;
+        transition: 0.5s;
+        margin: auto;
+        transition: 0.5s;
+    }
+    
+    #projects li:hover {
+        font-size: 1.7em;
+    }
+        
+    #contact p {
+        font-size: 1.5em;
+    }
+    #contact li {
+        font-size: 1.5em;
+        list-style-type: none;
+    }
+    
+    #contact img {
+        width: 0.8em;
+    }
+    
+    
+    footer ul{
+        width: 100%;
+    }
+    
+    footer li{
+        font-size: 1em;
+    }
+       
+    
+    footer img{
+        height: 50px;
+    }
+    
+}
